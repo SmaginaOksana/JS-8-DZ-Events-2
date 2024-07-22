@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Поиск подходящего тура</h1>
+        <div class="button"><button class="open">Open</button></div>
+        <form class="formType none" action="">
+          <input
+            type="text"
+            placeholder="Страна вылета"
+            class="departure"
+          /><input
+            type="text"
+            placeholder="Направление"
+            class="arrival"
+          /><select name="" id="">
+            <option value="Продолжительность" hidden>Продолжительность</option>
+            <option value="5 дней">5 дней</option>
+            <option value="10 дней">10 дней</option>
+            <option value="14 дней">14 дней</option>
+          </select>
+          <button class="submit">Поиск</button>
+        </form>
+      </header>
+      <main>
+        <div class="list"></div>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

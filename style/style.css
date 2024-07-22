@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgb(234, 227, 227);
+}
+.container header h1 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+.container header .none {
+  display: none;
+}
+.container header .button {
+  width: 200px;
+  margin: 0 auto;
+}
+.container header .button .open {
+  width: 200px;
+  border: 1px solid rgb(71, 69, 69);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+.container header .formType {
+  width: 700px;
+  margin: auto;
+}
+.container header .formType input {
+  border: 1px solid rgb(71, 69, 69);
+  border-radius: 5px;
+  width: 200px;
+  margin-right: 10px;
+  padding: 5px;
+}
+.container header .formType select {
+  width: 200px;
+  margin-right: 10px;
+}
+.container header .formType button,
+.container header .formType select {
+  border: 1px solid rgb(71, 69, 69);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+.container main .list {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.container main .list .info {
+  width: 200px;
+}
+.container main .list .info li {
+  list-style-type: none;
+}/*# sourceMappingURL=style.css.map */
